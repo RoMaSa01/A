@@ -1,26 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
     <title>SaintPodz</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./Images/Ico/LOGO.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
-    <header>
-      <a href="./index.html" class="logo">
-        <img src="./Images/Ico/LOGO.png" alt="Logo Compañia">
-        <h2 class="SaintPodz">SaintPodz</h2>
-      </a>
-      <nav>
-        <a href="./index.html" class="nav-link">Inicio</a>
-        <a href="./catalogo.html" class="nav-link">Catalogo</a>
-        <a href="" class="nav-link">Contactar</a>
-      </nav>
+    <header class="header">
+      <div class="container">
+        <div class="btn-menu">
+          <label for="btn-menu">☰</label>
+        </div>
+        <div class="logo">
+          <h1>Logotipo</h1>
+        </div>
+        <nav class="menu">
+          <a href="#">Inicio</a>
+          <a href="#">Nosotros</a>
+          <a href="#">Blog</a>
+          <a href="#">Contacto</a>
+        </nav>
+      </div>
     </header>
-    
+    <div class="capa"></div>
+    <!--	--------------->
+    <input type="checkbox" id="btn-menu" />
+    <div class="container-menu">
+      <div class="cont-menu">
+        <nav>
+          <a href="#">Portafolio</a>
+          <a href="#">Servicios</a>
+          <a href="#">Suscribirse</a>
+          <a href="#">Facebook</a>
+          <a href="#">Youtube</a>
+          <a href="#">Instagram</a>
+        </nav>
+        <label for="btn-menu">✖️</label>
+      </div>
+    </div>
   </body>
 </html>
