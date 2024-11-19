@@ -36,14 +36,23 @@ body {
   align-content: center;
 }
 
-@media (max-width: 344px) {
-  .cabecera {
-    width: 344px;
-  }
-}
-
-@media (min-width: 1440px) {
+@media (max-width: 768px) {
   .cabecera {
     width: 100%;
+  }
+  .title .title-png {
+    display: flex;
+    height: 10px;
+    width: auto;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  .cabecera .links {
+    display: flex;
+    font-size: medium;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    margin-top: 37px;
   }
 }
