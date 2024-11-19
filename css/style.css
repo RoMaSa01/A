@@ -132,10 +132,10 @@ body {
 }
 .cont-menu label {
   position: absolute;
-  right: 5px;
+  right: 15px;
   top: 10px;
   color: #fff;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 45px;
 }
 /*Fin de Menù lateral*/
