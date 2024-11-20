@@ -21,7 +21,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 33px 9%;
-  background: transparent;
+  background: rgba(0, 0, 0, 0.95);
 }
 
 .logo {
@@ -75,6 +75,46 @@ header {
   transform: translateY(-5px);
 }
 
+.navlist.open {
+  right: -10px;
+}
+
+.catalogo {
+  margin-left: 7.5%;
+  margin-top: 130px;
+  margin-bottom: 100px;
+  height: 600px;
+  width: 85%;
+  background-color: rgba(10, 10, 10, 0.76);
+  position: relative;
+  border-radius: 10px;
+}
+
+.saint-budz {
+  position: absolute;
+  display: block;
+  background: rgb(17, 17, 17);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  margin: 100px;
+  width: auto;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.saint-budz-img {
+}
+
+.podz-2 {
+  position: absolute;
+  background: rgb(17, 17, 17);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 100px;
+  margin-left: 500px;
+  width: auto;
+  height: 400px;
+  border-radius: 10px;
+}
+
 @media (max-width: 1535px) {
   header {
     padding: 15px 3%;
@@ -85,12 +125,14 @@ header {
     transition: 0.2s;
   }
 }
+
 @media (max-width: 990px) {
   #menu-icon {
     display: block;
   }
   .navlist {
     position: absolute;
+    border-radius: 10px;
     top: 100%;
     right: -100%;
     width: 150px;
@@ -114,13 +156,4 @@ header {
     display: block;
     margin: 7px 0;
   }
-}
-
-.navlist.open {
-  right: 0;
-}
-
-.podz {
-  color: white;
-  margin: 100px;
 }
