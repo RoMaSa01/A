@@ -93,13 +93,20 @@ header {
     position: absolute;
     top: 100%;
     right: -100%;
-    width: 300px;
-    height: 325px;
-    background: #7575756e;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(124, 124, 124); /* Fallback color */
+    background-color: rgba(
+      114,
+      114,
+      114,
+      0.4
+    ); /* Black w/opacity/see-through */
+    color: white;
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 50px 20px;
+    padding: 20px 20px;
     transition: all 0.5s ease;
   }
   .navlist a {
