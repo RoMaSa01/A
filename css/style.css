@@ -95,13 +95,13 @@ header {
     right: -100%;
     width: 150px;
     height: 150px;
-    background-color: rgb(124, 124, 124); /* Fallback color */
+    background-color: rgb(124, 124, 124); /* Color Fondo */
     background-color: rgba(
       114,
       114,
       114,
       0.4
-    ); /* Black w/opacity/see-through */
+    ); /* Black w/opacity/Ver a traves */
     color: white;
     display: flex;
     align-items: center;
