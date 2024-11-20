@@ -119,3 +119,8 @@ header {
 .navlist.open {
   right: 0;
 }
+
+.podz {
+  color: white;
+  margin: 100px;
+}
