@@ -110,7 +110,7 @@ header {
   }
 }
 
-.pro {
+.podz {
   width: 450px;
   height: auto;
   margin-top: -30px;
@@ -119,11 +119,21 @@ header {
 .títulos {
   position: absolute;
   color: white;
-  font-size: larger;
+  font-size: xx-large;
 
   display: flex;
   align-items: start;
   padding: 375px 50px;
+}
+
+.precios {
+  position: absolute;
+  color: white;
+  font-size: large;
+
+  display: flex;
+  align-items: start;
+  padding: 425px 50px;
 }
 
 @media (max-width: 1535px) {
