@@ -101,7 +101,7 @@ header {
   box-shadow: #ffffff 0px 0px 10px;
 
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: start;
   padding: 10px 0;
 
@@ -114,6 +114,16 @@ header {
   width: 450px;
   height: auto;
   margin-top: -30px;
+}
+
+.títulos {
+  position: absolute;
+  color: white;
+  font-size: larger;
+
+  display: flex;
+  align-items: start;
+  padding: 375px 50px;
 }
 
 @media (max-width: 1535px) {
