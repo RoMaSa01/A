@@ -319,14 +319,14 @@ header {
 
 @media (max-width: 1920px) {
   body {
-    background: rgb(245, 222, 179);
+    background: rgb(0, 0, 0);
   }
   header {
     position: fixed;
     right: 0;
-    top: -10%;
+    top: 0;
     z-index: 1000;
-    height: 20%;
+    height: 10%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -339,7 +339,6 @@ header {
     font-size: 300%;
     font-weight: 700;
     color: white;
-    margin-top: 23%;
   }
 
   .navlist {
@@ -360,7 +359,7 @@ header {
 
   .navlist.open {
     width: 50%;
-    height: 100%;
+    height: 200%;
   }
 
   #menu-icon {
@@ -369,7 +368,6 @@ header {
     z-index: 10001;
     cursor: pointer;
     display: none;
-    margin-top: 23%;
   }
 
   .icons {
