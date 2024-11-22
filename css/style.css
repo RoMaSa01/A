@@ -314,7 +314,7 @@ header {
 
 /* Mobile */
 
-@media (min-width: 430px) {
+@media (max-width: 430px) {
   body {
     background: yellow;
   }
