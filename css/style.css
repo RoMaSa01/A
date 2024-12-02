@@ -171,6 +171,10 @@ header {
   width: 250px;
   height: 125px;
   border-radius: 10px;
+
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
 }
 
 /* Pantallas Comunes PC */
