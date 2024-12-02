@@ -8,7 +8,6 @@
 }
 
 body {
-  background: black;
 }
 
 header {
@@ -72,7 +71,7 @@ header {
 }
 
 .icons i:hover {
-  color: #000000;
+  color: #797979;
   transform: translateY(-5px);
 }
 
@@ -159,14 +158,18 @@ header {
 }
 
 .compra {
+  background: rgba(81, 81, 81, 0.5);
   position: absolute;
-  color: white;
   font-size: large;
 
   display: flex;
   align-items: center;
-  margin-top: 500px;
-  margin-left: 130px;
+  justify-content: center;
+  margin-top: 480px;
+  margin-left: 100px;
+  width: 250px;
+  height: 125px;
+  border-radius: 10px;
 }
 
 /* Pantallas Comunes PC */
