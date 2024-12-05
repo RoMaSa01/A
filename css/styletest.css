@@ -210,11 +210,13 @@ header {
   align-items: center;
   margin-top: 50px;
   padding-bottom: 50px;
+  pointer-events: none;
 }
 
 .problemas {
   margin-right: 10px;
   font-weight: bold;
+  pointer-events: none;
 }
 
 .email {
