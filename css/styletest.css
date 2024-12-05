@@ -79,11 +79,11 @@ header {
   }
 }
 
-
 .podz {
   width: 450px;
   height: auto;
   margin-top: -30px;
+  pointer-events: none;
 }
 
 .budz {
@@ -91,6 +91,7 @@ header {
   height: auto;
   margin-top: 30px;
   margin-left: 100px;
+  pointer-events: none;
 }
 
 .max {
@@ -98,6 +99,7 @@ header {
   height: auto;
   margin-top: 30px;
   margin-left: 80px;
+  pointer-events: none;
 }
 
 .pen {
@@ -105,6 +107,7 @@ header {
   height: auto;
   margin-top: 30px;
   margin-left: 50px;
+  pointer-events: none;
 }
 
 .títulos {
@@ -116,6 +119,7 @@ header {
   align-items: start;
   padding: 375px 50px;
   padding-bottom: 0;
+  pointer-events: none;
 }
 
 .precios {
@@ -127,6 +131,7 @@ header {
   align-items: start;
   padding: 425px 50px;
   padding-bottom: 0;
+  pointer-events: none;
 }
 
 .compra {
@@ -137,49 +142,90 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 480px;
+  margin-top: 475px;
   margin-left: 100px;
   width: 250px;
-  height: 125px;
+  height: 50px;
   border-radius: 10px;
 
   font-size: x-large;
   font-weight: bold;
 }
 
-.compra:hover{
-    box-shadow: #444444 0px 0px 20px;
+.paypal-methods {
+  position: absolute;
+  font-size: large;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 545px;
+  margin-left: 100px;
+  width: 250px;
+  height: 25px;
+  border-radius: 10px;
+
+  font-size: x-large;
+  font-weight: bold;
+  pointer-events: none;
 }
 
-.compra a{
-    color: white;
+.paypal-tecno {
+  color: white;
+  position: absolute;
+  font-size: large;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 575px;
+  margin-left: 120px;
+  z-index: 1;
+
+  font-size: large;
+  font-weight: 300;
+  pointer-events: none;
 }
 
-.contac{
-    color: white;
-    font-weight:400;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    padding-bottom: 50px;
+.paypal-tecno img {
+  margin-left: 5px;
+  margin-top: 5px;
+  height: 25px;
+  pointer-events: none;
 }
 
-.problemas{
-    margin-right: 10px;
-    font-weight: bold;
+.compra:hover {
+  box-shadow: #444444 0px 0px 20px;
 }
 
-.email{
-    color: white;
-    font-weight: bold;
-    margin-left: 10px;
+.compra a {
+  color: white;
 }
 
+.contac {
+  color: white;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.problemas {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.email {
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
 
 /* Movil */
 @media (max-width: 700px) {
-    .compra:hover{
-        box-shadow: transparent;
-    }
+  .compra:hover {
+    box-shadow: transparent;
+  }
 }
