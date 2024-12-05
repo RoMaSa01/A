@@ -115,6 +115,7 @@ header {
   display: flex;
   align-items: start;
   padding: 375px 50px;
+  padding-bottom: 0;
 }
 
 .precios {
@@ -125,6 +126,7 @@ header {
   display: flex;
   align-items: start;
   padding: 425px 50px;
+  padding-bottom: 0;
 }
 
 .compra {
@@ -155,6 +157,18 @@ header {
 
 .contac{
     color: white;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.email{
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
 }
 
 
