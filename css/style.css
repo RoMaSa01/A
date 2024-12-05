@@ -178,49 +178,43 @@ header {
 }
 
 /* Pantallas Comunes PC */
-
-/* Barra de Navegación */
-@media (max-width: 990px) {
-  #menu-icon {
-    display: block;
+@media (max-width: 1896px) {
+  body {
+    background: green;
   }
-  .navlist {
-    position: absolute;
-    border-radius: 10px;
-    top: 100%;
-    right: -100%;
-    width: 150px;
-    height: 150px;
-    background-color: rgb(0, 0, 0); /* Color Fondo */
-    background-color: rgba(
-      114,
-      114,
-      114,
-      0.4
-    ); /* Black w/opacity/Ver a traves */
-    color: white;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px 20px;
-    transition: all 0.5s ease;
+  .item {
+    width: 29%; 
+    height: 45%; 
   }
-  .navlist a {
-    margin-left: 0;
-    display: block;
-    margin: 7px 0;
-  }
-  .item:hover {
-  box-shadow: #000000 0px 0px 20px;
+  .container{
+    height: 135vh;
   }
 }
-@media (max-width: 1535px) {
-  header {
-    padding: 15px 3%;
-    transition: 0.2s;
+
+/* Movil */
+@media (max-width: 700px) {
+  .navlist a {
+    color: transparent;
   }
-  .icons {
-    padding: 0 3%;
-    transition: 0.2s;
+  .item{
+    background: tomato;
+    width: 90%;
+    height: 45%;
+    margin: 5%;
+
+    &:last-child() {
+    margin-right: auto;
+    background: violet;
+  }
+  }
+  .container{
+    background: turquoise;
+  }
+  .podz{
+    height: auto;
+    width: 100%;
+  }
+  .compra{
+    margin-left: 18%;
   }
 }
