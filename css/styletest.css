@@ -157,12 +157,17 @@ header {
 
 .contac{
     color: white;
-    font-weight: lighter;
+    font-weight:400;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
     padding-bottom: 50px;
+}
+
+.problemas{
+    margin-right: 10px;
+    font-weight: bold;
 }
 
 .email{
