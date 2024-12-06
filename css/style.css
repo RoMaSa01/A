@@ -60,7 +60,6 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   border-radius: 10px;
-  
 }
 
 .item {
@@ -250,14 +249,104 @@ header {
     box-shadow: transparent;
   }
   .container {
-  width: 80%;
-  height: 100%;
-  background: rgba(29, 29, 29, 0.5);
-  margin: auto;
-  margin-top: 120px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  border-radius: 10px;
+    width: 66%;
+    height: 100%;
+    background: rgba(29, 29, 29, 0.5);
+    margin-left: 16%;
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+  .navlist a {
+    display: flex;
+    color: white;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all 0.55s ease;
+  }
+  .navlist a:hover {
+    border-bottom: 2px solid transparent;
+  }
+  .logo {
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: 700;
+    color: white;
+    user-select: none;
+    pointer-events: none;
+  }
+  header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: rgba(0, 0, 0, 0.904);
+  }
+  .item {
+    background: rgb(0, 0, 0);
+    flex: none;
+    width: 96.5%;
+    height: 0%;
+    margin: 2%;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 10px 0;
+    box-shadow: #000000 0px 0px 10px;
+    -webkit-user-drag: none;
+
+    &:last-child() {
+      margin-right: auto;
+    }
+  }
+  .podz {
+  width: 100%;
+  height: auto;
+  margin-top: -30px;
+  margin-bottom: 30%;
+  user-select: none;
+  pointer-events: none;
+  -webkit-user-drag: none;
+}
+
+.budz {
+  width: 50%;
+  height: auto;
+  margin-top: 0%;
+  margin-bottom: 30%;
+  user-select: none;
+  pointer-events: none;
+  -webkit-user-drag: none;
+}
+
+.max {
+  width: 300px;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 80px;
+  user-select: none;
+  pointer-events: none;
+  -webkit-user-drag: none;
+}
+
+.pen {
+  width: 350px;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 50px;
+  user-select: none;
+  pointer-events: none;
+  -webkit-user-drag: none;
 }
 }
