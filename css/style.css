@@ -292,7 +292,7 @@ header {
     background: rgba(0, 0, 0, 0.904);
   }
   .item {
-    background: rgb(0, 0, 0);
+    background: rgb(254, 2, 2);
     flex: none;
     width: 96.5%;
     height: 0%;
@@ -311,42 +311,86 @@ header {
     }
   }
   .podz {
-  width: 100%;
-  height: auto;
-  margin-top: -30px;
-  margin-bottom: 30%;
-  user-select: none;
-  pointer-events: none;
-  -webkit-user-drag: none;
-}
+    width: 100%;
+    height: auto;
+    margin-top: -10%;
+    margin-bottom: 30%;
+    user-select: none;
+    pointer-events: none;
+    -webkit-user-drag: none;
+  }
 
-.budz {
-  width: 50%;
-  height: auto;
-  margin-top: 0%;
-  margin-bottom: 30%;
-  user-select: none;
-  pointer-events: none;
-  -webkit-user-drag: none;
-}
+  .budz {
+    width: 50%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 30%;
+    margin-left: 25%;
+    user-select: none;
+    pointer-events: none;
+    -webkit-user-drag: none;
+  }
 
-.max {
-  width: 300px;
-  height: auto;
-  margin-top: 30px;
-  margin-left: 80px;
-  user-select: none;
-  pointer-events: none;
-  -webkit-user-drag: none;
-}
+  .max {
+    width: 50%;
+    height: auto;
+    margin-top: 5%;
+    margin-right: 30px;
+    user-select: none;
+    pointer-events: none;
+    -webkit-user-drag: none;
+  }
 
-.pen {
-  width: 350px;
-  height: auto;
-  margin-top: 30px;
-  margin-left: 50px;
-  user-select: none;
-  pointer-events: none;
-  -webkit-user-drag: none;
-}
+  .pen {
+    width: 65%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 15%;
+    user-select: none;
+    pointer-events: none;
+    -webkit-user-drag: none;
+  }
+  .títulos {
+    position: absolute;
+    color: white;
+    font-size: large;
+
+    display: flex;
+    align-items: start;
+    padding-top: 46%;
+    padding-left: 5%;
+    padding-bottom: 0;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+  .precios {
+    position: absolute;
+    color: white;
+    font-size: medium;
+
+    display: flex;
+    align-items: start;
+    padding-top: 52%;
+    padding-left: 5%;
+    padding-bottom: 0;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+  .compra {
+    background: rgba(81, 81, 81, 0.5);
+    position: absolute;
+    font-size: large;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60%;
+    margin-left: 100px;
+    width: 30%;
+    height: 3%;
+    border-radius: 10px;
+
+    font-size: small;
+    font-weight: bold;
+  }
 }
