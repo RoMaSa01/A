@@ -253,7 +253,7 @@ header {
     height: 100%;
     background: rgba(29, 29, 29, 0.5);
     margin-left: 16%;
-    margin-top: 120px;
+    margin-top: 25%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -261,9 +261,12 @@ header {
   }
   .navlist a {
     display: flex;
+    position: relative;
     color: white;
-    margin-left: 50px;
-    font-size: 30px;
+    left: 150%;
+    margin-left: 20%;
+    margin-right: 0;
+    font-size: 200%;
     font-weight: 600;
     border-bottom: 2px solid transparent;
     transition: all 0.55s ease;
@@ -272,8 +275,8 @@ header {
     border-bottom: 2px solid transparent;
   }
   .logo {
-    font-size: 30px;
-    margin-left: 10px;
+    font-size: 150%;
+    margin-left: 5%;
     font-weight: 700;
     color: white;
     user-select: none;
@@ -284,7 +287,7 @@ header {
     right: 0;
     top: 0;
     z-index: 1000;
-    height: 100px;
+    height: 10%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -295,7 +298,7 @@ header {
     background: rgb(254, 2, 2);
     flex: none;
     width: 96.5%;
-    height: 0%;
+    height: 30%;
     margin: 2%;
     border-radius: 10px;
 
@@ -314,7 +317,7 @@ header {
     width: 100%;
     height: auto;
     margin-top: -10%;
-    margin-bottom: 30%;
+    margin-bottom: 40%;
     user-select: none;
     pointer-events: none;
     -webkit-user-drag: none;
@@ -324,7 +327,7 @@ header {
     width: 50%;
     height: auto;
     margin-top: 5%;
-    margin-bottom: 30%;
+    margin-bottom: 55%;
     margin-left: 25%;
     user-select: none;
     pointer-events: none;
@@ -335,7 +338,8 @@ header {
     width: 50%;
     height: auto;
     margin-top: 5%;
-    margin-right: 30px;
+    margin-left: 26%;
+    margin-bottom: 64%;
     user-select: none;
     pointer-events: none;
     -webkit-user-drag: none;
@@ -346,6 +350,7 @@ header {
     height: auto;
     margin-top: 5%;
     margin-left: 15%;
+    margin-bottom: 37%;
     user-select: none;
     pointer-events: none;
     -webkit-user-drag: none;
@@ -384,13 +389,56 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 60%;
-    margin-left: 100px;
+    margin-top: 59%;
+    margin-left: 17%;
     width: 30%;
     height: 3%;
     border-radius: 10px;
 
     font-size: small;
     font-weight: bold;
+  }
+  .paypal-methods {
+    position: absolute;
+    font-size: large;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65%;
+    margin-left: 22%;
+    width: 20%;
+    height: 25px;
+    border-radius: 10px;
+
+    font-size: x-large;
+    font-weight: bold;
+    pointer-events: none;
+    -webkit-user-drag: none;
+  }
+  .paypal-tecno {
+    color: white;
+    position: absolute;
+    font-size: large;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 69%;
+    margin-left: 12%;
+    z-index: 1;
+
+    font-size: small;
+    font-weight: 300;
+    pointer-events: none;
+    -webkit-user-drag: none;
+  }
+
+  .paypal-tecno img {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 25%;
+    pointer-events: none;
+    -webkit-user-drag: none;
   }
 }
