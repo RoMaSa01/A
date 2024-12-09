@@ -295,7 +295,6 @@ header {
     background: rgba(0, 0, 0, 0.904);
   }
   .item {
-    background: rgb(254, 2, 2);
     flex: none;
     width: 96.5%;
     height: 30%;
