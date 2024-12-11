@@ -481,7 +481,7 @@ header {
 }
 
 /* 1440p */
-@media (min-width: 1921px) and (max-width: 2560px) {
+@media (min-width: 1921px) and (max-width: 3000px) {
   body{
     background-color: red;
   }
