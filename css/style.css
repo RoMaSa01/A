@@ -470,6 +470,7 @@ header {
     white-space: nowrap;
     margin-left: -27%;
     font-size: smaller;
+    -webkit-user-drag: none;
   }
 
   .email {
