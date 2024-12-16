@@ -294,6 +294,9 @@ header {
     justify-content: start;
     background: rgba(0, 0, 0, 0.904);
   }
+  .container {
+
+  }
   .item {
     flex: none;
     width: 96.5%;
@@ -455,9 +458,8 @@ header {
 
   .problemas {
     display: flex;
-    justify-content: start;
     align-items: center;
-    margin-left: 10%;
+    margin-left: 3%;
     font-weight: bold;
     font-size: small;
     pointer-events: none;
@@ -474,7 +476,7 @@ header {
   .email {
     color: white;
     font-weight: bold;
-    margin-left: -5%;
+    margin-left: -4%;
     margin-top: 2%;
     font-size: smaller;
   }
