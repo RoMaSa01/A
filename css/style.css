@@ -294,9 +294,6 @@ header {
     justify-content: start;
     background: rgba(0, 0, 0, 0.904);
   }
-  .container {
-
-  }
   .item {
     flex: none;
     width: 96.5%;
@@ -419,9 +416,11 @@ header {
     -webkit-user-drag: none;
   }
   .paypal-tecno {
-    color: white;
+    color: transparent;
     position: absolute;
     font-size: large;
+    height: 0px;
+    width: 0px;
 
     display: flex;
     align-items: center;
